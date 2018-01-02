@@ -226,7 +226,7 @@ const Form = ({ revalidation : {form, onChange, updateState, valid, errors = {},
 export default revalidation(Form)
 ```
 
-revalidtion returns an object containing:
+revalidation returns an object containing:
 - __form__: form values
 - __onChange__: a function expecting form name and value, additionally one can specify if the value and/or the validation should be updated and also accepts a callback function that will be run after an update has occurred. i.e.
 
